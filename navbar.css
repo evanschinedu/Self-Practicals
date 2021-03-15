@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 2.0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+ li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    line-height: 1.2;
+    margin: 10px 0;
+    font-weight: 300;
+    padding-left: 100px;
+}
+
+/*navbar*/
+.navbar {
+    color: darkorange;
+    height: 70px;
+}
+
+.navbar .headbar {
+    justify-content: space-between;
+    background-color: grey;
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: yellow;
+    margin: 0 5px;
+    padding: 7px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+/*Utilities*/
+
+.linkbar {
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    max-width: 1200;
+}
+
+.headbar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
